@@ -24,7 +24,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
   flutter_speed_dial: ^1.2.1
-
+  flutter_dialogflow: ^0.1.3
   folding_cell: "^0.1.2"
 
 dev_dependencies:
@@ -71,7 +71,14 @@ flutter:
      - assets/images/stresstest.gif
      - assets/images/endotest.gif
      - assets/images/endo.png
+     - assets/images/card.png
+     - assets/images/Doctor.png
+     - assets/images/docIcon.png
      - assets/images/heart-beating.gif
+     - assets/doctor-cqfxkd-247966848f36.json
+     - assets/images/mobile_doctor.png
+
+
 
 
 
