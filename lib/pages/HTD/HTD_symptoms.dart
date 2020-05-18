@@ -8,7 +8,7 @@ class HTD_symptoms extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
 
-      backgroundColor: Colors.lightBlue[50],
+      backgroundColor: Colors.lightBlue[100],
       body:new Stack(
           children: <Widget>[new Container(
             margin: new EdgeInsets.only(

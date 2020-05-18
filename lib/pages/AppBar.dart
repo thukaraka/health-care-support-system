@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:healthcaredecision/HTD_card/HTD_dart.dart';
+import 'package:healthcaredecision/pages/Home.dart';
+
 class GradientAppBar extends StatelessWidget{
   final String title;
   final String route;
@@ -28,7 +31,12 @@ class GradientAppBar extends StatelessWidget{
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
           IconButton(icon:Icon(Icons.arrow_back),onPressed:(){
-            Navigator.pushNamed(context, this.route);
+           Navigator.pushNamed(context, this.route);
+
+
+
+
+
           }),
           Text(title, style: const TextStyle(color: Colors.black, fontFamily: 'Poppins', fontWeight: FontWeight.w600, fontSize: 24.0)),
           IconButton(icon:Icon(Icons.menu),onPressed:(){}),
